@@ -226,7 +226,7 @@ color: #FFFFFF;
 
   .heading {
     
-    margin-top:  50px;
+    margin-top:  20px;
     font-family: 'Roboto';
 font-style: normal;
 font-weight:700;
@@ -313,9 +313,96 @@ color: #FFFFFF;
 
     .Truck {
         display: flex;
-        height: 30%;
-        width: 20%;
+        height: 40vh;
+        width: 20vh;
         align-content: flex-end;
         padding-top: 100px;
     }
+    .line {    
+        margin-top: 50px;
+        margin-bottom: 0px;
+	height: 1%;
+    width: 20%;
+	border: none;
+	background-color:#C8A35F;
+    }
+
+    .info {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+.wraperServices {
+    margin: 0 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 ;
+    width: 90vw;
+    height: 80vh;
+    justify-content: center;
+    align-items:center;
+}
+    .menuHeading {
+font-family: 'Roboto';
+font-weight: 700;
+font-size: 40px;
+line-height: 49px;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+color:#FFFFFF;
+margin-left: 90px;
+margin-bottom: 0;
+margin-top: 30px;
+    }
+
+.wraperfly {
+    margin: 0 0;
+    display: flex;
+    height: 31vh;
+    width: 90vw;
+    justify-content: center;
+    align-items:flex-start;
+    gap: 4px;
+}
+    .fly {
+        
+        display: flex;
+        width: 270px;
+        height: 180px;
+        background:url(/image/Rectangle\ 3.svg)
+
+    }
+    .textFly {
+font-family: 'Roboto';
+font-weight: 700;
+font-size: 18px;
+text-align: center;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+color:aliceblue;
+margin-top: auto;
+margin-left: 35px;
+
+    }
+
+    .flyImage {
+       position: absolute;
+       margin-left: 100px;
+       margin-top: 40px;
+    }
+
+    .line2 {    
+       position: absolute;
+margin-left: 90px;
     
+	height: 5px;
+    width: 70px;
+	border: none;
+	background-color:#C8A35F;
+    }
